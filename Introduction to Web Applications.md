@@ -37,3 +37,6 @@ The different setups in web applications are called models. They are divided int
 ### Client Server
 
 A server hosts the web application and distributes across any clients trying to access it. In this model, the web applications have two components, Front-End (interpreted and executed on the client-side i.e. browser) and Back-End (compiled, interpreted and executed by the hosting server).
+
+![Client-Server Architecture](https://academy.hackthebox.com/storage/modules/75/client-server-model.jpg)
+
