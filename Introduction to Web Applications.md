@@ -40,3 +40,11 @@ A server hosts the web application and distributes across any clients trying to 
 
 ![Client-Server Architecture](https://academy.hackthebox.com/storage/modules/75/client-server-model.jpg)
 
+### One Server
+
+The entire or even several web applications and their components, including the database are hosted on a single hosted server. It is the riskiest design. If the webserver goes down for any reason, all hosted web applications become entirely inaccessible until the issue is resolved.
+
+One Server design represents an "`all eggs in one basket`" approach since if any of the hosted web applications are vulnerable, the entire webserver becomes vulnerable.
+
+![One Server](https://academy.hackthebox.com/storage/modules/75/one-server-arch.jpg)
+
