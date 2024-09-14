@@ -48,3 +48,19 @@ One Server design represents an "`all eggs in one basket`" approach since if any
 
 ![One Server](https://academy.hackthebox.com/storage/modules/75/one-server-arch.jpg)
 
+### Many Servers - One Database
+
+The database is separated onto its own database server and allows the web applications' hosting server to access the database server to store and retrieve data. This model allows several web applications to access a single database to have access to the same data without syncing the data between them. 
+
+This model's main advantage (`from a security point of view`) is segmentation, where each of the main components of a web application is located and hosted separately. In case one webserver is compromised, other webservers are not directly affected. Similarly, if the database is compromised (i.e., through a SQL injection vulnerability), the web application itself is not directly affected.
+
+![Many Servers-One Database](https://academy.hackthebox.com/storage/modules/75/many-server-one-db-arch.jpg)
+
+### Many Servers - Many Databases
+
+ Within the database server, each web application's data is hosted in a separate database. The web application can only access private data and only common data that is shared across web applications. It is also possible to host each web application's database on its separate database server.
+
+This design is also widely used for redundancy purposes, so if any web server or database goes offline, a backup will run in its place to reduce downtime as much as possible. 
+
+![Many Servers-Many Databases](https://academy.hackthebox.com/storage/modules/75/many-server-many-db-arch.jpg)
+
