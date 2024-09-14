@@ -64,3 +64,15 @@ This design is also widely used for redundancy purposes, so if any web server or
 
 ![Many Servers-Many Databases](https://academy.hackthebox.com/storage/modules/75/many-server-many-db-arch.jpg)
 
+# Web Application Components
+
+All of the components can be broken down to:
+
+1. Clients
+2. Server
+	1. Web Server
+	2. Web Application Logic
+	3. Database
+3. Services (Microservices)
+4. Functions (Serverless)
+
