@@ -18,3 +18,10 @@
 2. **Attempt a Common Password**: Instead of guessing many different passwords for a single user (which would quickly lock out the account due to security mechanisms like account lockout policies), the attacker tries the same common password (e.g., "password123") across multiple accounts.
 3. **Repeat with Other Passwords**: Once the attacker has tried one password across all accounts, they move on to the next password in their list and repeat the process. 
 
+# Layers in Web Applications Layout
+
+|   |   |
+|---|---|
+|`Web Application Infrastructure`|Describes the structure of required components, such as the database, needed for the web application to function as intended. Since the web application can be set up to run on a separate server, it is essential to know which database server it needs to access.|
+|`Web Application Components`|The components that make up a web application represent all the components that the web application interacts with. These are divided into the following three areas: `UI/UX`, `Client`, and `Server` components.|
+|`Web Application Architecture`|Architecture comprises all the relationships between the various web application components.|
