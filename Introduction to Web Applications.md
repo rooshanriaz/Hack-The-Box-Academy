@@ -74,5 +74,16 @@ All of the components can be broken down to:
 	2. Web Application Logic
 	3. Database
 3. Services (Microservices)
+	1. Third Party Integrations
+	2. Web Applications Integrations
 4. Functions (Serverless)
 
+# Web Application Architecture
+
+The components of a web application are divided into three different layers (AKA Three Tier Architecture).
+
+|   |   |
+|---|---|
+|`Presentation Layer`|Consists of UI process components that enable communication with the application and the system. These can be accessed by the client via the web browser and are returned in the form of HTML, JavaScript, and CSS.|
+|`Application Layer`|This layer ensures that all client requests (web requests) are correctly processed. Various criteria are checked, such as authorization, privileges, and data passed on to the client.|
+|`Data Layer`|The data layer works closely with the application layer to determine exactly where the required data is stored and can be accessed.|
