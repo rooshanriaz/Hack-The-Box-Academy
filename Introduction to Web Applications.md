@@ -228,3 +228,24 @@ The HTML elements can be viewed as follows:
 
 ![[Pasted image 20240915190357.png]]
 
+Each HTML element is opened and closed with a tag that specifies the element's type 'e.g. `<p>` for paragraphs', where the content would be placed between these tags. Tags may also hold the element's id or class 'e.g. `<p id='para1'>` or `<p id='red-paragraphs'>`', which is needed for CSS to properly format the element. Both tags and the content comprise the entire element.
+
+### URL Encoding
+
+ For a browser to properly display a page's contents, it has to know the charset in use. In URLs, for example, browsers can only use [ASCII](https://en.wikipedia.org/wiki/ASCII) encoding, which only allows alphanumerical characters and certain special characters. Therefore, all other characters outside of the ASCII character-set have to be encoded within a URL. URL encoding replaces unsafe ASCII characters with a `%` symbol followed by two hexadecimal digits.
+
+The single-quote character '`'`' is encoded to '`%27`', which can be understood by browsers as a single-quote. URLs cannot have spaces in them and will replace a space with either a `+` (plus sign) or `%20`. Some common character encodings are:
+
+| Character | Encoding |
+| --------- | -------- |
+| space     | %20      |
+| !         | %21      |
+| "         | %22      |
+| #         | %23      |
+| $         | %24      |
+| %         | %25      |
+| &         | %26      |
+| '         | %27      |
+| (         | %28      |
+| )         | %29      |
+
