@@ -347,3 +347,19 @@ document.getElementById("button1").innerHTML = "Changed Text!";
 
 The above example changes the content of the `button1` HTML element. From here on, there are many more advanced uses of `JavaScript` on a web page.
 
+### Usage
+
+Most common web applications heavily rely on `JavaScript` to drive all needed functionality on the web page, like updating the web page view in real-time, dynamically updating content in real-time, accepting and processing user input, and many other potential functionalities. `JavaScript` is also used to automate complex processes and perform HTTP requests to interact with the back end components and send and retrieve data, through technologies like [Ajax](https://en.wikipedia.org/wiki/Ajax_(programming)).
+
+All modern web browsers are equipped with `JavaScript` engines that can execute `JavaScript` code on the client-side without relying on the back end webserver to update the page. This makes using `JavaScript` a very fast way to achieve a large number of processes quickly.
+
+### Frameworks
+
+Some of the most common front end `JavaScript` frameworks are:
+
+- [Angular](https://www.w3schools.com/angular/angular_intro.asp)
+- [React](https://www.w3schools.com/react/react_intro.asp)
+- [Vue](https://www.w3schools.com/whatis/whatis_vue.asp)
+- [jQuery](https://www.w3schools.com/jquery/)
+
+A listing and comparison of common JavaScript frameworks can be found [here](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks).
