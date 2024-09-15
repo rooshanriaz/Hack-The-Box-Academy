@@ -96,3 +96,14 @@ The components of a web application are divided into three different layers (AKA
 
 [Microservices-on-AWS](https://d1.awsstatic.com/whitepapers/microservices-on-aws.pdf)
 
+### Microservices
+
+We think of microservices as independent components of web application, which are mostly programmed for only one task. For example, for an online store, we can decompose core tasks into the following components:
+
+- Registration
+- Search
+- Payments
+- Ratings
+- Reviews
+
+These components communicate with the client and with each other. The communication between these microservices is `stateless`, which means that the request and response are independent. This is because the stored data is `stored separately` from the respective microservices. The use of microservices is considered [service-oriented architecture (SOA)](https://en.wikipedia.org/wiki/Service-oriented_architecture), built as a collection of different automated functions focused on a single business goal
