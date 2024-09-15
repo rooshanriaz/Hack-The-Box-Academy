@@ -264,3 +264,13 @@ The single-quote character '`'`' is encoded to '`%27`', which can be understood 
 
 ### Usage
 
+The `<head>` element usually contains elements that are not directly printed on the page, like the page title, while all main page elements are located under `<body>`. Other important elements include the `<style>`, which holds the page's CSS code, and the `<script>`, which holds the JS code of the page. Each of these elements is called a [DOM (Document Object Model)](https://en.wikipedia.org/wiki/Document_Object_Model).
+
+The DOM standard is separated into 3 parts:
+
+- `Core DOM` - the standard model for all document types
+- `XML DOM` - the standard model for XML documents
+- `HTML DOM` - the standard model for HTML documents
+
+
+
