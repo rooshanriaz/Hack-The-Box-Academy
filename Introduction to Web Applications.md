@@ -224,9 +224,22 @@ document
       --- p
 ```
 
-The HTML elements can be viewed as follows:
+The following is a very basic example of an HTML page:
 
-![[Pasted image 20240915190357.png]]
+#### Example
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <h1>A Heading</h1>
+        <p>A Paragraph</p>
+    </body>
+</html>
+```
 
 Each HTML element is opened and closed with a tag that specifies the element's type 'e.g. `<p>` for paragraphs', where the content would be placed between these tags. Tags may also hold the element's id or class 'e.g. `<p id='para1'>` or `<p id='red-paragraphs'>`', which is needed for CSS to properly format the element. Both tags and the content comprise the entire element.
 
@@ -248,4 +261,6 @@ The single-quote character '`'`' is encoded to '`%27`', which can be understood 
 | '         | %27      |
 | (         | %28      |
 | )         | %29      |
+
+### Usage
 
