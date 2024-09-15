@@ -190,7 +190,7 @@ The `top 20` most common mistakes web developers make that are essential for u
 |`19.`|Review user actions|
 |`20.`|Web Application Firewall misconfigurations|
 
-These mistakes lead to the [OWASP Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities for web applications, which we will discuss in other modules:
+These mistakes lead to the [OWASP Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities for web applications, which are as follows:
 
 |**No.**|**Vulnerability**|
 |---|---|
