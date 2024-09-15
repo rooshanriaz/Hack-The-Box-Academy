@@ -106,4 +106,17 @@ We think of microservices as independent components of web application, which ar
 - Ratings
 - Reviews
 
-These components communicate with the client and with each other. The communication between these microservices is `stateless`, which means that the request and response are independent. This is because the stored data is `stored separately` from the respective microservices. The use of microservices is considered [service-oriented architecture (SOA)](https://en.wikipedia.org/wiki/Service-oriented_architecture), built as a collection of different automated functions focused on a single business goal
+These components communicate with the client and with each other. The communication between these microservices is `stateless`, which means that the request and response are independent. This is because the stored data is `stored separately` from the respective microservices. The use of microservices is considered [service-oriented architecture (SOA)](https://en.wikipedia.org/wiki/Service-oriented_architecture), built as a collection of different automated functions focused on a single business goal. Some benefits of microservices are: 
+
+- Agility
+- Resilience
+- Flexible Scaling
+- Easy Deployment
+- Reusability
+
+### Serverless
+
+Cloud platforms such AWS, GCP, Azure, and others, offer serverless architecture. These platforms provide the applications frameworks to build web applications without having to worry about servers. These web applications are then run in stateless computing containers( such as Docker ). This type of architecture gives a company the flexibility to build and deploy applications and services without having to manage infrastructure; all server management is done by the cloud provider, which gets rid of the need to provision, scale, and maintain servers needed to run applications and databases.
+
+More information about serverless computing and its various use cases can be found [here](https://aws.amazon.com/serverless).
+
