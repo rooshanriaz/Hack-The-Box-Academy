@@ -93,3 +93,5 @@ The components of a web application are divided into three different layers (AKA
 
 ![.NET Core Architecture](https://docs.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/media/image5-12.png)
 [Common Web Application Architectures from Microsoft](https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/common-web-application-architectures)
+
+![[microservices-on-aws.pdf]]
