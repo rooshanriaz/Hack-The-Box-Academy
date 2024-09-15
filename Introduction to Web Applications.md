@@ -148,3 +148,59 @@ The back end of a web application drives all of the core web application functio
 
 ![Back End Architecture](https://academy.hackthebox.com/storage/modules/75/backend-server.jpg)
 
+It is also possible to host each component of the back end on its own isolated server, or in isolated containers, by utilizing services such as [Docker](https://www.docker.com/). To maintain logical separation and mitigate the impact of vulnerabilities, different components of the web application, such as the database, can be installed in one Docker container, while the main web application is installed in another, thereby isolating each part from potential vulnerabilities that may affect the other container(s).
+
+Some of the main jobs performed by back end components include:
+
+- Develop the main logic and services of the back end of the web application
+- Develop the main code and functionalities of the web application
+- Develop and maintain the back end database
+- Develop and implement libraries to be used by the web application
+- Implement technical/business needs for the web application
+- Implement the main [APIs](https://en.wikipedia.org/wiki/API) for front end component communications
+- Integrate remote servers and cloud services into the web application
+
+## Securing Front/Back End
+
+Suppose there is a search function in a web application that mistakenly does not process our search queries correctly. In that case, we could use specific techniques to manipulate the queries in such a way that we gain unauthorized access to specific database data [SQL injections](https://www.w3schools.com/sql/sql_injection.asp) or even execute operating system commands via the web application, also known as [Command Injections](https://owasp.org/www-community/attacks/Command_Injection). When we have full access to the source code of front end components, we can perform a code review to find vulnerabilities, which is part of what is referred to as [Whitebox Pentesting](https://en.wikipedia.org/wiki/White-box_testing). On the other hand, back end components' source code is stored on the back end server, so we do not have access to it by default, which forces us only to perform what is known as [Blackbox Pentesting](https://en.wikipedia.org/wiki/Black-box_testing)
+[Local File Inclusion](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/11.1-Testing_for_Local_File_Inclusion) could allow us to obtain the source code from the back end server. With this source code in hand, we can then perform a code review on back end components to further understand how the application works, potentially find sensitive data in the source code (such as passwords), and even find vulnerabilities that would be difficult or impossible to find without access to the source code.
+
+The `top 20` most common mistakes web developers make that are essential for us as penetration testers are:
+
+|**No.**|**Mistake**|
+|---|---|
+|`1.`|Permitting Invalid Data to Enter the Database|
+|`2.`|Focusing on the System as a Whole|
+|`3.`|Establishing Personally Developed Security Methods|
+|`4.`|Treating Security to be Your Last Step|
+|`5.`|Developing Plain Text Password Storage|
+|`6.`|Creating Weak Passwords|
+|`7.`|Storing Unencrypted Data in the Database|
+|`8.`|Depending Excessively on the Client Side|
+|`9.`|Being Too Optimistic|
+|`10.`|Permitting Variables via the URL Path Name|
+|`11.`|Trusting third-party code|
+|`12.`|Hard-coding backdoor accounts|
+|`13.`|Unverified SQL injections|
+|`14.`|Remote file inclusions|
+|`15.`|Insecure data handling|
+|`16.`|Failing to encrypt data properly|
+|`17.`|Not using a secure cryptographic system|
+|`18.`|Ignoring layer 8|
+|`19.`|Review user actions|
+|`20.`|Web Application Firewall misconfigurations|
+These mistakes lead to the [OWASP Top 10](https://owasp.org/www-project-top-ten/) vulnerabilities for web applications, which we will discuss in other modules:
+
+|**No.**|**Vulnerability**|
+|---|---|
+|`1.`|Broken Access Control|
+|`2.`|Cryptographic Failures|
+|`3.`|Injection|
+|`4.`|Insecure Design|
+|`5.`|Security Misconfiguration|
+|`6.`|Vulnerable and Outdated Components|
+|`7.`|Identification and Authentication Failures|
+|`8.`|Software and Data Integrity Failures|
+|`9.`|Security Logging and Monitoring Failures|
+|`10.`|Server-Side Request Forgery (SSRF)|
+
