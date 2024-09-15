@@ -205,3 +205,26 @@ These mistakes lead to the [OWASP Top 10](https://owasp.org/www-project-top-ten
 |`9.`|Security Logging and Monitoring Failures|
 |`10.`|Server-Side Request Forgery (SSRF)|
 
+# Front End Components
+
+The Front End components of a web application consists of:
+## HTML
+
+HTML contains each page's basic elements, including titles, forms, images, and many other elements. The web browser, in turn, interprets these elements and displays them to the end-user.
+
+### HTML Structure
+
+```shell-session
+document
+ - html
+   -- head
+      --- title
+   -- body
+      --- h1
+      --- p
+```
+
+The HTML elements can be viewed as follows:
+
+![[Pasted image 20240915190357.png]]
+
