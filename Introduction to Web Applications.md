@@ -272,5 +272,6 @@ The DOM standard is separated into 3 parts:
 - `XML DOM` - the standard model for XML documents
 - `HTML DOM` - the standard model for HTML documents
 
+Understanding the HTML DOM structure can help us understand where each element we view on the page is located, which enables us to view the source code of a specific element on the page and look for potential issues. We can locate HTML elements by their id, their tag name, or by their class name. This is also useful when we want to utilize front-end vulnerabilities (like `XSS`) to manipulate existing elements or create new elements to serve our needs.
 
 
