@@ -363,3 +363,6 @@ Some of the most common front end `JavaScript` frameworks are:
 - [jQuery](https://www.w3schools.com/jquery/)
 
 A listing and comparison of common JavaScript frameworks can be found [here](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks).
+
+# Front End Vulnerabilities
+
