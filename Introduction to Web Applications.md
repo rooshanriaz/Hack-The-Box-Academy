@@ -366,3 +366,5 @@ A listing and comparison of common JavaScript frameworks can be found [here](ht
 
 # Front End Vulnerabilities
 
+## Sensitive Data Exposure
+
